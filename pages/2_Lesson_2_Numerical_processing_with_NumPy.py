@@ -5,6 +5,8 @@ import pandas as pd
 #st.set_page_config(page_title="Lesson 2 - Numerical processing with NumPy", page_icon="📖", layout="wide")
 
 #load_css()
+with open(r'content\Lesson-2.md', 'r') as file:
+    md = file.read()
 
-#md = read_md('Lesson-2.md')
-#st.markdown(md, unsafe_allow_html=True)
+st.markdown(md, unsafe_allow_html=True)
+
