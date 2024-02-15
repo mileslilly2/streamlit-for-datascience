@@ -5,9 +5,10 @@ import pandas as pd
 st.set_page_config(page_title="Lesson 0 - Getting up to speed with Streamlit", page_icon="📖", layout="wide")
 
 #load_css()
-
+with open(r'content\Lesson-0.md', 'r') as file:
+    markdown_file_content = file.read()
 #md = read_md('Lesson-0.md')
-#st.markdown(md, unsafe_allow_html=True)
+ow
 
 
 st.divider()

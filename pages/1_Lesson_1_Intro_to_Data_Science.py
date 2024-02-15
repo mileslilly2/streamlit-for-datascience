@@ -6,5 +6,7 @@ st.set_page_config(page_title="Lesson 1 - Getting up to speed with Data Science"
 
 #load_css()
 
-#md = read_md('Lesson-1.md')
-#st.markdown(md, unsafe_allow_html=True)
+with open(r'content\Lesson-1.md', 'r') as file:
+    markdown_file_content = file.read()
+
+st.markdown(markdown_file_content, unsafe_allow_html=True)
