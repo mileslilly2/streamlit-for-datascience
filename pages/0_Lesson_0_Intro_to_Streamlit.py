@@ -8,7 +8,6 @@ st.set_page_config(page_title="Lesson 0 - Getting up to speed with Streamlit", p
 with open(r'content\Lesson-0.md', 'r') as file:
     markdown_file_content = file.read()
 #md = read_md('Lesson-0.md')
-ow
 
 
 st.divider()
